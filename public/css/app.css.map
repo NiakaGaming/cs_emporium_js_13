@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "",
-"sources": [],
-"names": [],
-"file": "app.css"
-}
+{"version":3,"sourceRoot":"","sources":["../../src/scss/modules/tripleText.scss"],"names":[],"mappings":"AAAA;EACI;EACA;;AACA;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EAqCA;;AApCA;EACI;;AAEJ;EACI;;AAEJ;EACI;;AAEJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEJ;EACI;EACA;;AAEJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEJ;EACI;;AAGJ;EACI","file":"app.css"}

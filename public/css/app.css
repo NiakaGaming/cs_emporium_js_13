@@ -1,3 +1,55 @@
-
+.tripleText {
+  display: flex;
+  justify-content: space-around;
+}
+.tripleText div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33vw;
+  height: 25vh;
+  margin: 10px;
+  background-size: cover;
+  position: relative;
+}
+.tripleText div:nth-child(1) {
+  background-image: url("../img/services/service-1.jpg");
+}
+.tripleText div:nth-child(2) {
+  background-image: url("../img/services/service-2.jpg");
+}
+.tripleText div:nth-child(3) {
+  background-image: url("../img/services/slider-3.jpg");
+}
+.tripleText div:before {
+  content: "";
+  position: absolute;
+  width: 35%;
+  top: 15vh;
+  height: 3px;
+  left: 15%;
+  background-color: white;
+  transition: 2s;
+}
+.tripleText div:hover:before {
+  width: 2vw;
+  left: 45%;
+}
+.tripleText div:after {
+  content: "";
+  position: absolute;
+  width: 35%;
+  top: 15vh;
+  height: 3px;
+  left: 50%;
+  background-color: white;
+  transition: 2s;
+}
+.tripleText div:hover:after {
+  width: 2vw;
+}
+.tripleText div h2 {
+  color: white;
+}
 
 /*# sourceMappingURL=app.css.map */
