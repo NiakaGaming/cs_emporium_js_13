@@ -137,4 +137,69 @@ nav button:focus {
   color: white;
 }
 
+.recents {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recents div {
+  display: flex;
+}
+.recents div div {
+  display: flex;
+  flex-direction: column;
+}
+.recents div div:nth-child(1) {
+  margin-left: -5%;
+}
+.recents div div:nth-child(2) {
+  margin-left: 5%;
+}
+.recents div div:nth-child(3) {
+  margin-left: 5%;
+}
+.recents div div img {
+  height: 21vh;
+  width: 17vw;
+}
+.recents div div p:nth-child(3) {
+  color: red;
+  margin: 0;
+}
+.recents div div .sale {
+  flex-direction: row;
+}
+.recents div div .sale div {
+  margin: 0;
+}
+.recents div div div {
+  display: flex;
+  margin: 1% 0;
+}
+.recents div div div p:nth-child(2) {
+  color: red;
+  margin: 0;
+}
+.recents div div div p:nth-child(2) span {
+  color: grey;
+  text-decoration: line-through;
+}
+.recents div div div div {
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.recents div div div div:nth-child(1) {
+  justify-content: center;
+  align-items: center;
+}
+.recents div div div div:nth-child(1) p {
+  width: 45%;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  line-height: 325%;
+}
+
 /*# sourceMappingURL=app.css.map */
