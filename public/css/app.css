@@ -24,7 +24,7 @@
 .tripleText div:before {
   content: "";
   position: absolute;
-  width: 35%;
+  width: 36%;
   top: 15vh;
   height: 3px;
   left: 15%;
@@ -38,7 +38,7 @@
 .tripleText div:after {
   content: "";
   position: absolute;
-  width: 35%;
+  width: 36%;
   top: 15vh;
   height: 3px;
   left: 50%;
