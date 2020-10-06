@@ -143,6 +143,7 @@ nav button:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
+  scroll-behavior: smooth;
 }
 .recents div {
   display: flex;
@@ -158,6 +159,9 @@ nav button:focus {
   margin-left: 5%;
 }
 .recents div div:nth-child(3) {
+  margin-left: 5%;
+}
+.recents div div:nth-child(4) {
   margin-left: 5%;
 }
 .recents div div img {
@@ -201,6 +205,25 @@ nav button:focus {
   background-color: red;
   color: white;
   line-height: 325%;
+}
+
+.btnCaroussel {
+  width: 10%;
+  height: 2vh;
+  margin: 3%;
+  justify-content: space-around;
+}
+.btnCaroussel button {
+  width: 1vw;
+  height: 80%;
+  border-radius: 50%;
+  outline: none;
+  background-color: white;
+  border-style: solid black;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /*# sourceMappingURL=app.css.map */
