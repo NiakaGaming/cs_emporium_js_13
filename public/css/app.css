@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header .logo {
   text-align: center;
 }
@@ -366,6 +367,131 @@ section:nth-child(6) div:nth-child(3):hover p {
 section:nth-child(6) div:nth-child(3):hover button {
   color: #41474d;
   background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+footer > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer > div > div {
+  width: 33%;
+  margin: 0 1%;
+}
+
+footer > div:nth-child(1) {
+  padding: 2% 0;
+  background-color: #343A40;
+}
+
+footer > div:nth-child(1) > div:nth-child(1) {
+  padding-left: 20%;
+}
+
+footer > div:nth-child(1) > div:nth-child(2) > ul {
+  padding: 0;
+  list-style: none;
+}
+
+footer > div:nth-child(1) > div:nth-child(2) > ul > li {
+  padding: 2% 0;
+}
+
+footer > div:nth-child(1) > div:nth-child(2) > ul > li:before {
+  content: ">";
+}
+
+footer > div:nth-child(1) > div:nth-child(3) {
+  padding-right: 20%;
+}
+
+footer > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+footer > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > a {
+  padding: 3%;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 3%;
+  display: inline-block;
+}
+
+footer > div:nth-child(2) {
+  background-color: black;
+  height: 8vh;
+  margin: auto;
+}
+
+#signIn {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+#signIn > form {
+  border: 2px solid black;
+  border-radius: 25px;
+  height: 40vh;
+  width: 30vw;
+  background-color: coral;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#signIn > form > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 80%;
+}
+
+#signIn > form > div > input {
+  width: 75%;
+  padding: 5%;
+  margin: 2% 0;
+}
+
+#signIn > form > div > input:nth-child(3):after {
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+#signIn > form > div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#signIn > div {
+  position: absolute;
+  top: 85%;
+  left: 44%;
+  display: flex;
+}
+
+#signIn > form > div > div {
+  position: absolute;
+  top: 53%;
+  left: 85%;
 }
 
 html {
