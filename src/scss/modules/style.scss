@@ -6,6 +6,9 @@
 @import "./learn2.scss";
 @import "./footer.scss";
 
+html{
+    scroll-behavior: smooth;
+}
 
 // https://fonts.google.com/specimen/Poppins?query=popp
 // body {
