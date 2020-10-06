@@ -233,6 +233,7 @@ section:nth-child(4) div button {
   padding: 1vh;
   border-radius: 5px;
 }
+
 .btnCaroussel {
   width: 10%;
   height: 2vh;
@@ -246,6 +247,125 @@ section:nth-child(4) div button {
   outline: none;
   background-color: white;
   border-style: solid black;
+}
+
+section:nth-child(6) {
+  text-align: center;
+  display: flex;
+}
+section:nth-child(6) div:nth-child(1) {
+  padding-top: 3vh;
+  background-color: #f3f2f3;
+  margin-right: 3vh;
+}
+section:nth-child(6) div:nth-child(1) i {
+  margin-top: 3vh;
+  font-size: 3vh;
+}
+section:nth-child(6) div:nth-child(1) p:nth-child(2) {
+  margin-top: 4vh;
+  font-weight: bold;
+}
+section:nth-child(6) div:nth-child(1) p:nth-child(3) {
+  margin: 0 6vh;
+  margin-bottom: 5vh;
+  margin-top: 6vh;
+  color: gray;
+}
+section:nth-child(6) div:nth-child(1) button {
+  color: white;
+  background-color: #41474d;
+  margin-bottom: 4vh;
+  border-radius: 4px;
+  border: #41474d;
+  padding: 1vh;
+}
+section:nth-child(6) div:nth-child(1):hover {
+  background-color: #dd4545;
+  color: white;
+}
+section:nth-child(6) div:nth-child(1):hover p {
+  color: white;
+}
+section:nth-child(6) div:nth-child(1):hover button {
+  color: #41474d;
+  background-color: white;
+}
+section:nth-child(6) div:nth-child(2) {
+  padding-top: 3vh;
+  background-color: #f3f2f3;
+  margin-right: 3vh;
+}
+section:nth-child(6) div:nth-child(2) i {
+  margin-top: 3vh;
+  font-size: 3vh;
+}
+section:nth-child(6) div:nth-child(2) p:nth-child(2) {
+  margin-top: 4vh;
+  font-weight: bold;
+}
+section:nth-child(6) div:nth-child(2) p:nth-child(3) {
+  margin: 0 6vh;
+  margin-bottom: 5vh;
+  margin-top: 6vh;
+  color: gray;
+}
+section:nth-child(6) div:nth-child(2) button {
+  color: white;
+  background-color: #41474d;
+  margin-bottom: 4vh;
+  border-radius: 4px;
+  border: #41474d;
+  padding: 1vh;
+}
+section:nth-child(6) div:nth-child(2):hover {
+  background-color: #dd4545;
+  color: white;
+}
+section:nth-child(6) div:nth-child(2):hover p {
+  color: white;
+}
+section:nth-child(6) div:nth-child(2):hover button {
+  color: #41474d;
+  background-color: white;
+}
+section:nth-child(6) div:nth-child(3) {
+  padding-top: 3vh;
+  background-color: #f3f2f3;
+  margin-right: 3vh;
+}
+section:nth-child(6) div:nth-child(3) i {
+  margin-top: 3vh;
+  font-size: 3vh;
+}
+section:nth-child(6) div:nth-child(3) p:nth-child(2) {
+  margin-top: 4vh;
+  font-weight: bold;
+}
+section:nth-child(6) div:nth-child(3) p:nth-child(3) {
+  margin: 0 6vh;
+  margin-bottom: 5vh;
+  margin-top: 6vh;
+  color: gray;
+}
+section:nth-child(6) div:nth-child(3) button {
+  color: white;
+  background-color: #41474d;
+  margin-bottom: 4vh;
+  border-radius: 4px;
+  border: #41474d;
+  padding: 1vh;
+}
+section:nth-child(6) div:nth-child(3):hover {
+  background-color: #dd4545;
+  color: white;
+}
+section:nth-child(6) div:nth-child(3):hover p {
+  color: white;
+}
+section:nth-child(6) div:nth-child(3):hover button {
+  color: #41474d;
+  background-color: white;
 }
 
 html {
