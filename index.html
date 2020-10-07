@@ -47,9 +47,11 @@
                 </button>
             </div>
         </nav>
+        <!-- Connexion modal -->
         <div id="signIn" hidden>
             <form>
                 <div>
+                    <i class="fas fa-times"></i>
                     <p>CONNEXION</p>
                     <input type="email" placeholder="Votre adresse mail" required>
                     <input type="password" placeholder="Mot de passe" required>
@@ -65,7 +67,23 @@
             </form>
             <div>
                 <p>Pas encore de compte ?</p>
-                <button id="signUp">S'inscrire</button>
+                <button id="signUpBtn">S'inscrire</button>
+            </div>
+        </div>
+        <div id="signUp" hidden>
+            <form>
+                <div>
+                    <i class="fas fa-times"></i>
+                    <p>S'INSCRIRE</p>
+                    <input type="email" placeholder="Votre adresse mail" required>
+                    <input type="password" placeholder="Nouveau mot de passe" required>
+                    <input type="password" placeholder="Vérification du mot de passe" required>
+                    <button>Confirmer inscription</button>
+                </div>
+            </form>
+            <div>
+                <p>Déjà un compte ?</p>
+                <button id="signInBtn">Se connecter</button>
             </div>
         </div>
         <div class="banner">
