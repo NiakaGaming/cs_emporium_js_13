@@ -1,4 +1,4 @@
-.btnCaroussel{
+.btnCarousel{
     width: 10%;
     height: 2vh;
     margin: 3%;
@@ -11,5 +11,38 @@
         outline: none;
         background-color: white;
         border: solid black 1px;
+    }
+}
+
+.base{
+    transition: 2s;
+}
+.left{
+    animation: slide_left;
+    animation-duration: 1s;
+    left: 50%;
+    top: -287px;
+}
+.right{
+    animation: slide_right;
+    animation-duration: 1s;
+    left: 0%;
+}
+@keyframes slide_right{
+    from{
+        left: 0;
+    }
+    to{
+        left: 100%;
+    }
+}
+@keyframes slide_left{
+    from{
+        left: -100%;    
+        top: -287px;
+    }
+    to{
+        left: 0%;
+        top: -287px;
     }
 }

@@ -147,6 +147,7 @@ nav button:focus {
 }
 .recents div {
   display: flex;
+  position: relative;
 }
 .recents div div {
   display: flex;
@@ -234,13 +235,14 @@ section:nth-child(4) div button {
   border-radius: 5px;
 }
 
-.btnCaroussel {
+.btnCarousel {
   width: 10%;
   height: 2vh;
   margin: 3%;
   justify-content: space-around;
+  position: unset !important;
 }
-.btnCaroussel button {
+.btnCarousel button {
   width: 1vw;
   height: 80%;
   border-radius: 50%;
@@ -249,6 +251,41 @@ section:nth-child(4) div button {
   border-style: solid black;
 }
 
+.base {
+  transition: 2s;
+}
+
+.left {
+  animation: slide_left;
+  animation-duration: 1s;
+  left: 50%;
+  top: -287px;
+}
+
+.right {
+  animation: slide_right;
+  animation-duration: 1s;
+  left: 0%;
+}
+
+@keyframes slide_right {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
+}
+@keyframes slide_left {
+  from {
+    left: -100%;
+    top: -287px;
+  }
+  to {
+    left: 0%;
+    top: -287px;
+  }
+}
 section:nth-child(6) {
   text-align: center;
   display: flex;
@@ -544,6 +581,10 @@ html {
 body {
   margin: 0;
   font-family: "Questrial", sans-serif;
+}
+
+[hidden] {
+  display: none !important;
 }
 
 /*# sourceMappingURL=app.css.map */
