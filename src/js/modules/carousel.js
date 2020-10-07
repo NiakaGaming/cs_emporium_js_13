@@ -12,10 +12,10 @@ function carousel(e) {
         if (e.target == arrBtnS[0]) {
             hideCarousel();
             removeClass();
-            carousel1.classList.add("left");
-            carousel4.classList.add("right");
-            carousel1.toggleAttribute("hidden", false);
+            carousel4.classList.add("left");
+            carousel1.classList.add("right");
             carousel4.toggleAttribute("hidden", false);
+            carousel1.toggleAttribute("hidden", false);
             setTimeout(() => {
                 carousel4.toggleAttribute("hidden", true);
             }, 1000);
@@ -23,10 +23,10 @@ function carousel(e) {
         else if (e.target == arrBtnS[1]) {
             hideCarousel();
             removeClass();
-            carousel1.classList.add("right");
-            carousel2.classList.add("left");
-            carousel1.toggleAttribute("hidden", false);
+            carousel2.classList.add("right");
+            carousel1.classList.add("left");
             carousel2.toggleAttribute("hidden", false);
+            carousel1.toggleAttribute("hidden", false);
             setTimeout(() => {
                 carousel1.toggleAttribute("hidden", true);
             }, 1000);
@@ -34,10 +34,10 @@ function carousel(e) {
         else if (e.target == arrBtnS[2]) {
             hideCarousel();
             removeClass();
-            carousel2.classList.add("right");
-            carousel3.classList.add("left");
-            carousel2.toggleAttribute("hidden", false);
+            carousel3.classList.add("right");
+            carousel2.classList.add("left");
             carousel3.toggleAttribute("hidden", false);
+            carousel2.toggleAttribute("hidden", false);
             setTimeout(() => {
                 carousel2.toggleAttribute("hidden", true);
             }, 1000);
@@ -45,10 +45,10 @@ function carousel(e) {
         else if (e.target == arrBtnS[3]) {
             hideCarousel();
             removeClass();
-            carousel3.classList.add("right");
-            carousel4.classList.add("left");
-            carousel3.toggleAttribute("hidden", false);
+            carousel4.classList.add("right");
+            carousel3.classList.add("left");
             carousel4.toggleAttribute("hidden", false);
+            carousel3.toggleAttribute("hidden", false);
             setTimeout(() => {
                 carousel3.toggleAttribute("hidden", true);
             }, 1000);

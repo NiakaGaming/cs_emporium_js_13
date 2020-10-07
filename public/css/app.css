@@ -277,7 +277,8 @@ section:nth-child(4) div a {
 }
 
 #HotProducts {
-  margin-bottom: 50vh;
+  overflow: hidden;
+  height: 60vh;
 }
 #HotProducts h3 {
   margin-bottom: 10%;
@@ -285,7 +286,7 @@ section:nth-child(4) div a {
 
 #carousel1, #carousel2, #carousel3, #carousel4 {
   position: absolute;
-  top: 45%;
+  top: 15%;
 }
 
 .btnCarousel {
@@ -293,7 +294,7 @@ section:nth-child(4) div a {
   height: 2vh;
   justify-content: space-around;
   position: absolute;
-  top: 60vh;
+  top: 55vh;
 }
 .btnCarousel button {
   width: 2.2vh;
@@ -302,10 +303,6 @@ section:nth-child(4) div a {
   outline: none;
   background-color: white;
   border: solid black 1px;
-}
-
-.base {
-  transition: 2s;
 }
 
 .left {
@@ -334,6 +331,11 @@ section:nth-child(4) div a {
     left: -100%;
   }
 }
+#divClip {
+  clip-path: inset(0);
+  margin: 0;
+}
+
 section:nth-child(6) {
   text-align: center;
   display: flex;
