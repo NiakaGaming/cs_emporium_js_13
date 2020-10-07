@@ -5,15 +5,15 @@
     align-items: center;
     scroll-behavior: smooth;
     margin-bottom: 10vh;
+    position: relative;
     h3{
         color: #2d2f32;
         margin-bottom: 5vh;
         font-size: 3.3vh;
     }
     div{
-        
         display: flex;
-        position: relative;
+        // position: absolute;
         div{
             display: flex;
             flex-direction: column;
@@ -79,4 +79,15 @@
             }
         }
     }
+}
+
+.zoomIn{
+    height: 35vh !important;
+    width: 25vw !important;
+    transition: 1s;
+}
+.zoomOut{
+    height: 29vh !important;
+    width: 18vw !important;
+    transition: 1s;
 }

@@ -1,9 +1,19 @@
+#HotProducts{
+    margin-bottom: 50vh;
+    h3{
+        margin-bottom: 10%;
+    }
+}
+#carousel1, #carousel2, #carousel3, #carousel4{
+    position: absolute;
+    top: 45%;
+}
 .btnCarousel{
     width: 10%;
     height: 2vh;
-    margin: 3%;
     justify-content: space-around;
-    margin-top: 8vh;
+    position: absolute;
+    top: 60vh;
     button{
         width: 2.2vh;
         height: 95%;
@@ -20,29 +30,24 @@
 .left{
     animation: slide_left;
     animation-duration: 1s;
-    left: 50%;
-    top: -287px;
 }
 .right{
     animation: slide_right;
     animation-duration: 1s;
-    left: 0%;
 }
 @keyframes slide_right{
     from{
-        left: 0;
+        left: 100%;
     }
     to{
-        left: 100%;
+        left: 13.5%;
     }
 }
 @keyframes slide_left{
     from{
-        left: -100%;    
-        top: -287px;
+        left: 13.5%;
     }
     to{
-        left: 0%;
-        top: -287px;
+        left: -100%;    
     }
 }
