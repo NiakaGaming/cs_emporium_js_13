@@ -1,12 +1,8 @@
 header{
     .logo{
+        color: #2d3034;
         text-align: center;
-        // margin: auto;
-        img{
-            margin-top: 3%;
-            margin-bottom: 3%;
-
-        }
+        margin: 8vh 0;
     }
 }
 nav{
@@ -15,12 +11,13 @@ nav{
     display: flex;
     justify-content: space-between;
     width: 60%;
-    // margin-left: 20%;
-    // margin-right: 20%;
+    color: #6c757d;
     
     div{
+        display: flex;
             margin-left: 2%;
             margin-right: 2%;
+            
     }
     button{
         background-color: white;
@@ -33,22 +30,30 @@ nav{
 
 }
 #white{
+    // height: 50%;
     background-color: white;
     border-radius: 10%;
     border: grey solid 1px;
-    padding: 8%;
+    padding: 1vh;
+    height: 0;
+    margin-top: 2vh;
 }
 #black{
     background-color: black;
     border-radius: 10%;
     border: grey solid 1px;
-    padding: 8%;
+    padding: 1vh;
+    height: 0;
+    margin-top: 2vh;
 }
 #connexion{
+    margin: auto;
+    height: 100%;
     border: 0;
     color: white;
     border-radius: 0;
-    background-color: gray;
+    background-color: #6c757d;
+    padding: 2vh;
 }
 // #3btns{   
 //     display: flex;
@@ -58,38 +63,45 @@ nav{
     display: flex;
     margin-top: 2%;
     background-color: #f3f3f3;
+    height: 66vh;
+    margin-bottom: 6vh;
+    
     div{
         margin: auto;
         &:nth-child(1){
-            margin-left: 25%;
+            margin-top: 5%;
+            margin-left: 39vh;
             h2{
+                font-size: 6vh;
                 color: #dd4545;
-                margin-bottom: 0;
-                font-size: 200%;
+                margin-bottom: 2vh;
             }
-            h1{
-                font-size: 400%;
-                margin: 0;
+            img{
+                height: 12vh;
             }
+            
             p{
-                font-size: 100%;
+                font-size: 2vh;
+                color: #6c757d;
+                margin-bottom: 5vh;
             }
             a{
                 border: #dd4545;
-                padding: 2%;
+                padding: 2vh 3vh;
                 margin-left: 2%;
-                font-size: 80%;
+                font-size: 1.5vh;
                 background-color: #dd4545;
                 color: white;
                 border-radius: 50px;
                 text-decoration: none;
             }
         }
+    
         &:nth-child(2){
             // margin-right: 0;
             img{
-                height: 100%;
-                width: 50%;
+                height: 60vh;
+                width: 80%;
             }
         }
 

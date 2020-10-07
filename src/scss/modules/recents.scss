@@ -4,8 +4,16 @@
     flex-direction: column;
     align-items: center;
     scroll-behavior: smooth;
+    margin-bottom: 10vh;
+    h3{
+        color: #2d2f32;
+        margin-bottom: 5vh;
+        font-size: 3.3vh;
+    }
     div{
+        
         display: flex;
+        
         div{
             display: flex;
             flex-direction: column;
@@ -22,12 +30,12 @@
                 margin-left: 5%;
             }
             img{
-                height: 21vh;
-                width: 17vw;
+                height: 29vh;
+                width: 18vw;
             }
             p{
                 &:nth-child(3){
-                    color: red;
+                    color: #dd4545;
                     margin: 0;
                 }
             }
@@ -42,7 +50,7 @@
                 margin: 1% 0;
                 p{
                     &:nth-child(2){
-                        color: red;
+                        color: #dd4545;
                         margin: 0;
                         span{
                             color: grey;
@@ -58,11 +66,13 @@
                         justify-content: center;
                         align-items: center;
                         p{
-                            width: 45%;
-                            border-radius: 50%;
-                            background-color: red;
+                            width: 5vh;
+                            border-radius: 5vh;
+                            background-color: #dd4545;
                             color: white;
                             line-height: 325%;
+                            font-size: 1.5vh;
+                            padding: 1vh;
                         }
                     }
                 }

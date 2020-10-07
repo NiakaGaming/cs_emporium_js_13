@@ -4,15 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Emporium.</title>
     <link rel="stylesheet" href="./public/css/app.css">
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="logo">
-            <img src="./public/img/logo.png" alt="logo de la page">
+            <h1>
+                emporium.
+            </h1>
         </div>
         <nav>
             <button>
@@ -34,17 +37,17 @@
                 CONTACT
             </button>
             <!-- Regarde j'arrive à bien le faire via le style.. mais depuis le scss ca marche po.. je laisse ca comme ca demain on répare -->
-            <div id=3btns style="display: flex;">
-                <div id="white">
-
+            <div>
+                <div id="white" >
+                    
                 </div>
                 <div id="black">
-
                 </div>
-
-                <button id="connexion">
-                    CONNEXION
-                </button>
+                <div>
+                    <button id="connexion">
+                        CONNEXION
+                    </button>
+                </div>
             </div>
         </nav>
         <!-- Connexion modal -->
@@ -89,7 +92,7 @@
         <div class="banner">
             <div>
                 <h2>Shop at</h2>
-                <h1>emporium.</h1>
+                <img src="./public/img/logo.png" alt="logo de la page">
                 <p>A wonderful serenity has taken possession of my entire soul,like these sweet mornings of spring which
                     i enjoy with my.</p>
                 <a href="#saleRecents">SALE ITEMS</a>
@@ -192,12 +195,12 @@
     <section>
         <div>
             <h2>Discover Thousands Of Great Products</h2>
-            <button>LEARN MORE</button>
+            <a href="#HotProducts">LEARN MORE</a>
         </div>
     </section>
     <!-- Hot Fashion Products -->
     <section>
-        <div class="recents">
+        <div id ="HotProducts"class="recents">
             <h3>Hot Fashion Products</h3>
             <div>
                 <div>
