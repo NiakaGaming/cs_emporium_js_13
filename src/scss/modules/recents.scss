@@ -6,6 +6,7 @@
     scroll-behavior: smooth;
     div{
         display: flex;
+        position: relative;
         div{
             display: flex;
             flex-direction: column;

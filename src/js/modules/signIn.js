@@ -11,6 +11,9 @@ let btnSignUp2 = document.getElementById("signInBtn");
 let cross1 = signInForm.firstElementChild.firstElementChild.firstElementChild;
 let cross2 = signUpForm.firstElementChild.firstElementChild.firstElementChild;
 
+let inputMdp1 = cross2.nextElementSibling.nextElementSibling.nextElementSibling;
+let inputMdp2 = inputMdp1.nextElementSibling;
+
 cross1.addEventListener("click", exit);
 cross2.addEventListener("click", exit);
 function exit() {
@@ -56,5 +59,15 @@ function showHide(e) {
         e.path[1].toggleAttribute("hidden");
         e.path[1].previousElementSibling.toggleAttribute("hidden");
         mdpInput.type = "password"
+    }
+}
+signUpForm.addEventListener("submit", match);
+function match(e) {
+    if (inputMdp1.value != inputMdp2.value) {
+        e.preventDefault();
+        alert("Les mots de passe ne correspondent pas")
+    }
+    else {
+        alert("Tu t'es inscrit à Emporium")
     }
 }
