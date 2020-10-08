@@ -98,6 +98,56 @@ nav button:focus {
   width: 80%;
 }
 
+@media only screen and (max-width: 321px) {
+  header .logo {
+    margin: 0;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  nav button {
+    margin: 5%;
+  }
+  nav div {
+    margin: auto;
+  }
+
+  #white {
+    margin-right: 2%;
+  }
+
+  #dark {
+    margin-right: 2%;
+  }
+
+  .banner {
+    height: auto;
+  }
+  .banner div {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin: auto;
+  }
+  .banner div:nth-child(1) h2 {
+    font-size: 2vh;
+  }
+  .banner div:nth-child(1) img {
+    height: 3vh;
+  }
+  .banner div:nth-child(1) p {
+    font-size: 1vh;
+  }
+  .banner div:nth-child(1) a {
+    font-size: 1vh;
+    padding: 1vh 1vh;
+  }
+  .banner div:nth-child(2) img {
+    height: auto;
+    width: 100%;
+  }
+}
 .tripleText {
   display: flex;
   justify-content: space-around;

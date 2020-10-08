@@ -99,3 +99,54 @@ nav{
     }
     
 }
+
+@media only screen and (max-width: 321px){
+    header .logo{
+        margin: 0;
+    }
+    nav{
+        flex-wrap: wrap;
+        width: 100%;
+        button{
+            margin: 5%;
+        }
+        div{
+            margin: auto;
+        }
+    }
+    #white{
+        margin-right: 2%;
+    }
+    #dark{
+        margin-right: 2%;
+    }
+    .banner{
+        height: auto;
+        div{
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+            margin: auto;
+            &:nth-child(1){
+                h2{
+                 font-size: 2vh;   
+                }
+                img{
+                    height: 3vh;
+                }
+                p{
+                    font-size: 1vh;
+                }
+                a{
+                    font-size: 1vh;
+                    padding: 1vh 1vh;
+                }
+            }
+            &:nth-child(2){
+                img{
+                    height: auto;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
