@@ -96,3 +96,29 @@
     // transform: scale(1); 
     // z-index: 0;
 }
+@media only screen and (max-width:321px){
+    .recents{
+        div{
+            p{
+                font-size: 2vh;
+            }
+            div{
+                .sale{
+                    flex-direction: column;
+                }
+                div:nth-child(1) {
+                     margin-left: 0;
+                     p{
+                         font-size: 1vh !important;
+                        width: 4vh !important;
+                        padding: 0.5vh !important;
+                     }
+                }
+                img{
+                    width: 14.5vh;
+                    height: 22vh;
+                }
+            }
+        }
+    }
+}

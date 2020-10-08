@@ -124,3 +124,21 @@ nav{
 .sticky + .banner {
    padding-top : 1000px;
 }
+//Here are the queries.
+
+@media only screen and (max-width:321px) {
+    .banner{
+        padding-right: 25vh;
+        div{
+            &:nth-child(1){
+                margin-left: 0;
+               h2{
+                font-size: 4vh;
+                }
+                img{
+                height: 6vh;
+                }
+        }
+        }
+    }
+}
