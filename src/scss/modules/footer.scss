@@ -61,3 +61,16 @@ footer>div:nth-child(2){
     color: gray;
     align-items: center;
 }
+ @media only screen and (max-width:321px){
+     
+
+footer {
+    div{
+        display: inline;
+        
+    } 
+}
+ }
+footer > div:nth-child(2){
+    text-align: center;
+}
