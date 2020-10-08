@@ -136,5 +136,17 @@ section{
 }
 
 @media only screen and (max-width: 321px){
-
+    section{
+        &:nth-child(6){
+            display: block;
+            div{
+                margin-left: 3vh;
+                margin-bottom: 3vh;
+            }
+        }
+    }
 }
+
+// section:nth-child(6) div:nth-child(1) {
+
+// section:nth-child(6) 
