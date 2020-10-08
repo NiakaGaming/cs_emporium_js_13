@@ -98,6 +98,7 @@
 }
 @media only screen and (max-width:321px){
     .recents{
+        width: 50%;
         div{
             p{
                 font-size: 2vh;
@@ -120,5 +121,8 @@
                 }
             }
         }
+    }
+    #HotProducts{
+        width: 100%;
     }
 }
