@@ -20,7 +20,8 @@ nav{
             margin: auto;
             
             div{
-                
+                margin-left: 2%;
+            margin-right: 2%;    
                     display: flex;
                 
             }
@@ -34,10 +35,8 @@ nav{
     button:focus{
         text-decoration: none;
     }
-
 }
 #white{
-    
     background-color: white;
     border-radius: 10%;
     border: grey solid 1px;
@@ -62,17 +61,12 @@ nav{
     background-color: #6c757d;
     padding: 2vh;
 }
-// #3btns{   
-//     display: flex;
-// }
-
 .banner{
     display: flex;
     margin-top: 2%;
     background-color: #f3f3f3;
     height: 66vh;
     margin-bottom: 6vh;
-    
     div{
         margin: auto;
         &:nth-child(1){
@@ -86,7 +80,6 @@ nav{
             img{
                 height: 12vh;
             }
-            
             p{
                 font-size: 2vh;
                 color: #6c757d;
@@ -103,9 +96,7 @@ nav{
                 text-decoration: none;
             }
         }
-    
         &:nth-child(2){
-            // margin-right: 0;
             img{
                 height: 60vh;
                 width: 80%;
@@ -123,4 +114,54 @@ nav{
 }
 .sticky + .banner {
    padding-top : 1000px;
+}
+@media only screen and (max-width: 321px){
+    header .logo{
+        margin: 0;
+    }
+    nav{
+        flex-wrap: wrap;
+        width: 100%;
+        button{
+            margin: 5%;
+        }
+        div{
+            margin: auto;
+        }
+    }
+    #white{
+        margin-right: 2%;
+    }
+    #dark{
+        margin-right: 2%;
+    }
+    .banner{
+        height: auto;
+        div{
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+            margin: auto;
+            &:nth-child(1){
+                h2{
+                 font-size: 2vh;   
+                }
+                img{
+                    height: 3vh;
+                }
+                p{
+                    font-size: 1vh;
+                }
+                a{
+                    font-size: 1vh;
+                    padding: 1vh 1vh;
+                }
+            }
+            &:nth-child(2){
+                img{
+                    height: auto;
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
