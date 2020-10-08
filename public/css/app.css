@@ -19,6 +19,8 @@ nav div:nth-child(1) {
   margin: auto;
 }
 nav div:nth-child(1) div {
+  margin-left: 2%;
+  margin-right: 2%;
   display: flex;
 }
 nav button {
@@ -99,20 +101,33 @@ nav button:focus {
   width: 80%;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.sticky + .banner {
+  padding-top: 1000px;
+}
+
 @media only screen and (max-width: 321px) {
+  nav > div:nth-child(1) {
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  nav > div:nth-child(1) > div {
+    margin: auto;
+  }
+
   header .logo {
     margin: 0;
   }
 
-  nav {
-    flex-wrap: wrap;
-    width: 100%;
-  }
   nav button {
     margin: 5%;
-  }
-  nav div {
-    margin: auto;
   }
 
   #white {
@@ -330,6 +345,7 @@ section:nth-child(4) div a {
 #HotProducts {
   overflow: hidden;
   height: 60vh;
+  position: relative;
 }
 #HotProducts h3 {
   margin-bottom: 10%;
@@ -723,7 +739,7 @@ footer > div:nth-child(2) {
 }
 
 .darkModeColor {
-  color: white;
+  color: white !important;
 }
 
 .darkModeBgColorBorder {
