@@ -1,5 +1,5 @@
 #signUp{
-    position: absolute;
+    position: fixed;
     z-index: 1;
     width: 100%;
 }
@@ -8,11 +8,12 @@
     border-radius: 25px;
     height: 40vh;
     width: 25vw;
-    background-color: coral;
+    background-color: #f3f3f3;
     margin: auto;
     display: flex;
     flex-direction: column;
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.75) 3px 0px 300px 200px;
 }
 #signUp>form>div{
     display: flex;
@@ -34,8 +35,9 @@
 #signUp>div{
     position: absolute;
     top: 85%;
-    left: 44%;
+    left: 43%;
     display: flex;
+    width: 80%;
 }
 #signUp>form>div>div{
     position: absolute;

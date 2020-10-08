@@ -1,5 +1,5 @@
 #signIn{
-    position: absolute;
+    position: fixed;
     z-index: 1;
     width: 100%;
 }
@@ -8,11 +8,12 @@
     border-radius: 25px;
     height: 40vh;
     width: 30vw;
-    background-color: coral;
+    background-color: #f3f3f3;
     margin: auto;
     display: flex;
     flex-direction: column;
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.75) 3px 0px 300px 200px;
 }
 #signIn>form>div{
     display: flex;
@@ -34,11 +35,25 @@
 #signIn>div{
     position: absolute;
     top: 85%;
-    left: 44%;
+    left: 43%;
     display: flex;
+    width: 80%;
 }
 #signIn>form>div>div{
     position: absolute;
-    top: 53%;
+    top: 50%;
     left: 85%;
+}
+#signIn>form>div>a{
+    color: black;
+}
+#signIn>form>div>button, #signIn>div>button, #signUp>form>div>button, #signUp>div>button{
+    border: #dd4545;
+    padding: 1vh 3vh;
+    margin-left: 2%;
+    font-size: 1.5vh;
+    background-color: #dd4545;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
 }
