@@ -116,17 +116,20 @@ nav{
    padding-top : 1000px;
 }
 @media only screen and (max-width: 321px){
+    nav>div:nth-child(1){
+        width: 100%;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    nav>div:nth-child(1)>div{
+        margin: auto;
+    }
     header .logo{
         margin: 0;
     }
     nav{
-        flex-wrap: wrap;
-        width: 100%;
         button{
             margin: 5%;
-        }
-        div{
-            margin: auto;
         }
     }
     #white{
